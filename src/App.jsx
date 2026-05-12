@@ -26,7 +26,7 @@ export default function App() {
     setSalary(null);
     try {
       const response = await axios.post(
-        "https://ml-model-for-university-cz77uw.fly.dev/predict",
+        "https://ml-model-for-university-cz77uw-production.up.railway.app/predict",
         {
           age: Number(age),
           gender: gender,
