@@ -9,7 +9,7 @@ export default function App() {
   const [gender, setGender] = useState("Male");
   const [jobSearch, setJobSearch] = useState("");
   const [job, setJob] = useState("");
-  const [education, setEducation] = useState("");
+  const [education, setEducation] = useState("High School");
   const [salary, setSalary] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
